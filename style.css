@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root  {
+    --color-primary: #1C3B57;
+    --color-secundary: #A4C2E0;
+    --color-details: #F3F4F6;
+    --color-text: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    line-height: 1.6;
+    background: linear-gradient(180deg,var(--color-primary) 0%, var(--color-secundary) 100%);
+    color: black;
+    height: 100vh;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    color: var(--color-text);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+section {
+    margin: 0 5%;
+}
+
+header {
+    background: var(--color-primary);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.section-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.content-menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.content-menu a {
+    color: var(--color-text);
+    font-size: 1.2rem;
+    transition: all 0.2s linear;
+}
+
+.content-menu a:hover{
+    color: var(--color-secundary);
+    border-bottom: 1.5px solid var(--color-secundary);
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    font-size: 1.1rem;
+    transition: all 0.2s linear;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
+}
+
+.section-main {
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.container-text{
+    text-align: center;
+    max-width: 700px;  /* limita o tamanho da linha */
+  line-height: 1.6;  /* espaçamento entre linhas */
+}
+
+.container-text p {
+    font-size: 1.2rem;
+}
+
+.container-text h2 {
+    font-size: 4rem;
+}
+
+.container-testimony-clients{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.card {
+    background-color: rgba(28, 59, 87, 0.5);
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.2s linear;
+    width: 400px;
+}
+
+.card:hover {
+    background-color: #43739a;
+    transform: translateY(-5px);
+}
+
+.container-button-contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.container-button-contact button{
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
+}
+
+.container-button-contact button:hover{
+    background-color: rgba(28, 59, 87, 0.5);
+    color: rgba(1, 14, 27, 0.793);
+}
+
+.tittles{
+    font-size: 3.5rem;
+}
+
+footer{
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 400px;
+}
+
+.container-footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-footer h2{
+    font-size: 2.5rem;
+}
+
+.container-footer p{
+    margin-top: 50px;
+}
+
+.content-links ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.content-links a{
+    color: var(--color-text);
+    transition: all 0.2s linear;
+}
+
+.content-links a:hover{
+    color: var(--color-secundary);
+    border-bottom: 1.5px solid var(--color-secundary);
+}
+
+
+
+
+/*PÁGINA DE RESGISTRO - REGISTER PAGE*/
+
+
+
+
+.container-main-register{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-background-card{
+    padding: 40px 80px;
+    border: 1px solid black;
+    background-color: var(--color-details);
+    border-radius: 15px;
+}
+
+.container-login-register{
+    text-align: center;
+}
+
+.container-login-register h1{
+    color: rgba(0, 0, 0, 0.927);
+}
+
+.container-login-register button{
+    margin-top: 20px;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container-input{
+    
+}
