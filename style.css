@@ -17,7 +17,7 @@ body {
     line-height: 1.6;
     background: linear-gradient(180deg,var(--color-primary) 0%, var(--color-secundary) 100%);
     color: black;
-    height: 100vh;
+    height: 100%;
 }
 
 h1, h2 {
