@@ -148,6 +148,7 @@ button:hover{
 .container-button-contact button{
     background-color: var(--color-primary);
     color: var(--color-secundary);
+    
 }
 
 .container-button-contact button:hover{
