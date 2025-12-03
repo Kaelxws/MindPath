@@ -287,25 +287,59 @@ footer{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    
+    margin-bottom: 60px;
 }
 
-.content-menu ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    align-items: center;
+.logo{
+    font-size: 1.3rem;
 }
 
 .content-menu a {
-    color: var(--color-text);
-    font-size: 1.2rem;
-    transition: all 0.2s linear;
+    display: none;
 }
 
-.content-menu a:hover{
-    color: var(--color-secundary);
-    border-bottom: 1.5px solid var(--color-secundary);
+button {
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    font-size: 1.1rem;
+    transition: 0.2s ease;
+}
+
+.section-main {
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    flex-direction: column-reverse;
+}
+
+.section-main img{
+    width: 320px;
+}
+
+.container-text h2{
+    font-size: 3.5rem;
+}
+
+.container-testimony-clients{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.container-testimony-clients img{
+    width: 200px;
+}
+
+.card{
+    width: 280px;
 }
 
 }
