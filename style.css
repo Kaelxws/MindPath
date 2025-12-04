@@ -420,8 +420,8 @@ button {
 
 @media (max-width:480px){
 
-header{
-    margin-bottom: 20%;
+.section-main{
+    margin-top: 20vh;
 }
 
 .container-testimony-clients{
@@ -445,4 +445,18 @@ header button{
     line-height: 3.1rem;
 }
 
+}
+
+@media (max-width:450px){
+
+.section-main{
+    margin-top: 35vh;
+    }
+}
+
+@media (max-width:400px){
+
+.section-main{
+    margin-top: 45vh;
+    }
 }
