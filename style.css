@@ -25,10 +25,11 @@ h1, h2 {
     font-family: 'Poppins', sans-serif;
     color: var(--color-text);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    
+    pointer-events: none;
 }
 
 p {
+    pointer-events: none;
     font-family: "Inter", sans-serif;
     color: var(--color-text);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
@@ -73,6 +74,7 @@ header {
 }
 
 button {
+    display: flex;
     border-radius: 15px;
     border: none;
     padding: 15px;
@@ -85,6 +87,7 @@ button {
 }
 
 button:hover{
+    transform: scale(1.1);
     cursor: pointer;
     background-color: #80b4e7;
     color: var(--color-primary);
@@ -189,11 +192,13 @@ footer{
 }
 
 .content-links a{
+    display: flex;
     color: var(--color-text);
-    transition: all 0.2s linear;
+    transition: 0.2s linear;
 }
 
 .content-links a:hover{
+    transform: scale(1.1);
     color: var(--color-secundary);
     border-bottom: 1.5px solid var(--color-secundary);
 }
@@ -227,8 +232,14 @@ footer{
     text-align: center;
 }
 
+.container-login-register img{
+    width: 40px;
+    padding: 10px 0;
+}
+
 .container-login-register h1{
-    color: var(--color-black);
+    color: var(--color-primary);
+    font-size: 2.4rem;
 }
 
 .container-login-register button{
@@ -275,6 +286,49 @@ footer{
     transform: translateY(-1px);
     background: linear-gradient(135deg, #366d9d, var(--color-secundary));
     box-shadow: 0 8px 20px var(--color-primary);
+
+}
+
+/*TELA MAIOR QUE TABLET*/
+
+@media(min-width:768px) and (max-width:1250px){
+
+.section-bar a{
+    display: none;
+}
+
+.section-main {
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.section-main img{
+    min-width: 40%;
+    max-width: 100%;
+}
+
+.container-text{
+    min-width: 20%;
+    max-width: 50%;
+}
+
+.container-testimony-clients{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.container-testimony-clients img{
+    width: 200px;
+}
+
+.card{
+    width: auto;
+}
 
 }
 
@@ -344,6 +398,8 @@ button {
 
 }
 
+/*TELA DE CELULAR - 600px*/
+
 @media (max-width: 600px){
     
 .logo{
@@ -356,6 +412,37 @@ button {
 
 .container-text h2{
     font-size: 3rem;
+}
+
+}
+
+/*TELA DE CELULAR - 480px*/
+
+@media (max-width:510px){
+
+header{
+    margin-bottom: 20%;
+}
+
+.container-testimony-clients{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    flex-direction: column;
+}
+
+.card{
+    margin: 0 5%;
+}
+
+header button{
+    padding: 10px;
+}
+
+.container-button-contact h2{
+    line-height: 3.1rem;
 }
 
 }
