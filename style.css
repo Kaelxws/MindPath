@@ -127,7 +127,7 @@ button:hover{
     text-align: center;
     padding: 5px;
     transition: all 0.2s linear;
-    width: 400px;
+    width: 25%;
 }
 
 .card:hover {
@@ -339,7 +339,23 @@ button {
 }
 
 .card{
-    width: 280px;
+    width: auto;
+}
+
+}
+
+@media (max-width: 600px){
+    
+.logo{
+    font-size: 1.2rem;
+}
+
+.section-main img{
+    padding-bottom: 25px;
+}
+
+.container-text h2{
+    font-size: 3rem;
 }
 
 }
