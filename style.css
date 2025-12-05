@@ -410,6 +410,10 @@ button {
     padding-bottom: 25px;
 }
 
+.section-main{
+    margin-top: 20%;
+}
+
 .container-text h2{
     font-size: 3rem;
 }
@@ -474,6 +478,11 @@ header button{
 .section-main{
     margin-top: 88%;
 }
+
+.section-main img{
+    width: 280px;
+}
+
 }
 
 @media(max-width: 345px){
@@ -481,4 +490,9 @@ header button{
 .section-main{
     margin-top: 95%;
 }
+
+.section-main img{
+    width: 250px;
+}
+
 }
