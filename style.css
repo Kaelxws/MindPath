@@ -468,3 +468,10 @@ header button{
 }
 
 }
+
+@media(max-width: 360px){
+
+.section-main{
+    margin-top: 80%;
+}
+}
