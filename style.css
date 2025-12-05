@@ -475,3 +475,10 @@ header button{
     margin-top: 80%;
 }
 }
+
+@media(max-width: 345px){
+
+.section-main{
+    margin-top: 95%;
+}
+}
