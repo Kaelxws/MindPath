@@ -429,7 +429,7 @@ button {
     margin-top: 150px;
     margin-bottom: 150px;
     flex-direction: column;
-    
+
 }
 
 .card{
@@ -467,4 +467,11 @@ header button{
     line-height: 3.1rem;
 }
 
+}
+
+@media (max-width: 360px){
+
+.section-main{
+    margin-top: 80%;
+}
 }
