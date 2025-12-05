@@ -414,6 +414,28 @@ button {
     font-size: 3rem;
 }
 
+.card{
+    width: auto;
+}
+
+}
+
+@media (max-width: 525px){
+
+    .container-testimony-clients{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    flex-direction: column;
+    
+}
+
+.card{
+    margin: 0 5%;
+}
+
 }
 
 /*TELA DE CELULAR - 480px*/
@@ -445,18 +467,4 @@ header button{
     line-height: 3.1rem;
 }
 
-}
-
-@media (max-width:450px){
-
-.section-main{
-    margin-top: 35vh;
-    }
-}
-
-@media (max-width:400px){
-
-.section-main{
-    margin-top: 45vh;
-    }
 }
