@@ -476,6 +476,19 @@ header button{
 
 }
 
+@media(max-width: 450px){
+
+header{
+    margin-bottom: 60%;
+}
+
+.section-main img{
+    width: 250px;
+}
+
+}
+
+
 @media(max-width: 360px){
 
 .section-main{
